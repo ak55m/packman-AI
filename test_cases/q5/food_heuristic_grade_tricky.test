@@ -1,0 +1,19 @@
+class: "HeuristicGrade"
+
+heuristic: "foodHeuristic"
+searchProblemClass: "FoodSearchProblem"
+layoutName: "trickySearch"
+layout: """
+%%%%%%%%%%%%%%%%%%%%
+%.           ..%   %
+%.%%.%%.%%.%%.%% % %
+%        P       % %
+%%%%%%%%%%%%%%%%%% %
+%.....             %
+%%%%%%%%%%%%%%%%%%%%
+"""
+# Four point always, an extra two point for each
+# threshold passed.
+basePoints: "4"
+gradingThresholds: "15000 12000 9000 7000"
+
