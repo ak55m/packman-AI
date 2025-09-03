@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS metadata
+.DS_Store
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# Test artifacts
+*.test_output
+
+
